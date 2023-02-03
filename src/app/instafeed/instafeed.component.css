@@ -1,0 +1,37 @@
+
+
+.list-group-item {
+    position: relative;
+    right: 3%;
+    border-bottom: none;
+}
+
+#test {
+    border-left: none;
+  border-right: none;
+  border-top: none;
+  /* border-bottom: none; */
+  border-bottom:0.5px solid lightgray;
+  font-size: 14px;
+  outline: none;
+}
+
+  .add-comment[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid grey;
+    border-width:0px 0px 2px 0px;
+ }
+ .add-comment[type=text]:focus {
+    outline:none;
+    border-image: linear-gradient(to right, #DEAFDB 0%, #EFB9AD 100%) 1;
+    border-width:0px 0px 2px 0px;
+ }
+
+/* .image-action {
+    margin-top: 120px;
+} */
+
+

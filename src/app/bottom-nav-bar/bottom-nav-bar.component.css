@@ -1,0 +1,15 @@
+.bottom-bar img  {
+    transition: transform .2s ease;
+    cursor: pointer;
+}
+
+.bottom-bar:hover img {
+    transform: scale(1.1);
+}
+
+.profile {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+

@@ -1,0 +1,57 @@
+.card-link, .switch-link {
+    color:lightskyblue;
+    text-decoration: none;
+    float: right;
+}
+
+.switch {
+    position: relative;
+    top: 14px;
+}
+
+.switch:hover {
+    color: black;
+}
+
+.card-subtitle > .see-all {
+    color: black;
+    cursor: pointer;
+}
+
+.card-subtitle > .see-all:hover {
+    color: grey;
+}
+
+.follow-suggest-profile img {
+    border-radius: 50%;
+}
+
+.follow-suggest-profile{
+    position: relative;
+    right: 5%;
+}
+
+.follow-link {
+    position: relative;
+    top: 6px;
+    left: 5%;
+    float: right;
+}
+
+.follow-link a {
+    color:lightskyblue;
+}
+.follow-link a:hover {
+    color: black;
+}
+
+.list-group-item {
+    border-bottom: none;
+}
+
+.card-link {
+    font-size: 12px;
+    float: left;
+}
+
+
